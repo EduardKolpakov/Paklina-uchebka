@@ -1,0 +1,124 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Паклина_Учебка</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\10c.jpg" />
+    <None Remove="images\10d.jpg" />
+    <None Remove="images\10h.jpg" />
+    <None Remove="images\10s.jpg" />
+    <None Remove="images\2c.jpg" />
+    <None Remove="images\2d.jpg" />
+    <None Remove="images\2h.jpg" />
+    <None Remove="images\2s.jpg" />
+    <None Remove="images\3c.jpg" />
+    <None Remove="images\3d.jpg" />
+    <None Remove="images\3h.jpg" />
+    <None Remove="images\3s.jpg" />
+    <None Remove="images\4c.jpg" />
+    <None Remove="images\4d.jpg" />
+    <None Remove="images\4h.jpg" />
+    <None Remove="images\4s.jpg" />
+    <None Remove="images\5c.jpg" />
+    <None Remove="images\5d.jpg" />
+    <None Remove="images\5h.jpg" />
+    <None Remove="images\5s.jpg" />
+    <None Remove="images\6c.jpg" />
+    <None Remove="images\6d.jpg" />
+    <None Remove="images\6h.jpg" />
+    <None Remove="images\6s.jpg" />
+    <None Remove="images\7c.jpg" />
+    <None Remove="images\7d.jpg" />
+    <None Remove="images\7h.jpg" />
+    <None Remove="images\7s.jpg" />
+    <None Remove="images\8c.jpg" />
+    <None Remove="images\8d.jpg" />
+    <None Remove="images\8h.jpg" />
+    <None Remove="images\8s.jpg" />
+    <None Remove="images\9c.jpg" />
+    <None Remove="images\9d.jpg" />
+    <None Remove="images\9h.jpg" />
+    <None Remove="images\9s.jpg" />
+    <None Remove="images\ac.jpg" />
+    <None Remove="images\ad.jpg" />
+    <None Remove="images\ah.jpg" />
+    <None Remove="images\as.jpg" />
+    <None Remove="images\coloda.png" />
+    <None Remove="images\jc.jpg" />
+    <None Remove="images\jd.jpg" />
+    <None Remove="images\jh.jpg" />
+    <None Remove="images\js.jpg" />
+    <None Remove="images\kc.jpg" />
+    <None Remove="images\kd.jpg" />
+    <None Remove="images\kh.jpg" />
+    <None Remove="images\ks.jpg" />
+    <None Remove="images\qc.jpg" />
+    <None Remove="images\qd.jpg" />
+    <None Remove="images\qh.jpg" />
+    <None Remove="images\qs.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\10c.jpg" />
+    <Resource Include="images\10d.jpg" />
+    <Resource Include="images\10h.jpg" />
+    <Resource Include="images\10s.jpg" />
+    <Resource Include="images\2c.jpg" />
+    <Resource Include="images\2d.jpg" />
+    <Resource Include="images\2h.jpg" />
+    <Resource Include="images\2s.jpg" />
+    <Resource Include="images\3c.jpg" />
+    <Resource Include="images\3d.jpg" />
+    <Resource Include="images\3h.jpg" />
+    <Resource Include="images\3s.jpg" />
+    <Resource Include="images\4c.jpg" />
+    <Resource Include="images\4d.jpg" />
+    <Resource Include="images\4h.jpg" />
+    <Resource Include="images\4s.jpg" />
+    <Resource Include="images\5c.jpg" />
+    <Resource Include="images\5d.jpg" />
+    <Resource Include="images\5h.jpg" />
+    <Resource Include="images\5s.jpg" />
+    <Resource Include="images\6c.jpg" />
+    <Resource Include="images\6d.jpg" />
+    <Resource Include="images\6h.jpg" />
+    <Resource Include="images\6s.jpg" />
+    <Resource Include="images\7c.jpg" />
+    <Resource Include="images\7d.jpg" />
+    <Resource Include="images\7h.jpg" />
+    <Resource Include="images\7s.jpg" />
+    <Resource Include="images\8c.jpg" />
+    <Resource Include="images\8d.jpg" />
+    <Resource Include="images\8h.jpg" />
+    <Resource Include="images\8s.jpg" />
+    <Resource Include="images\9c.jpg" />
+    <Resource Include="images\9d.jpg" />
+    <Resource Include="images\9h.jpg" />
+    <Resource Include="images\9s.jpg" />
+    <Resource Include="images\ac.jpg" />
+    <Resource Include="images\ad.jpg" />
+    <Resource Include="images\ah.jpg" />
+    <Resource Include="images\as.jpg" />
+    <Resource Include="images\coloda.png" />
+    <Resource Include="images\jc.jpg" />
+    <Resource Include="images\jd.jpg" />
+    <Resource Include="images\jh.jpg" />
+    <Resource Include="images\js.jpg" />
+    <Resource Include="images\kc.jpg" />
+    <Resource Include="images\kd.jpg" />
+    <Resource Include="images\kh.jpg" />
+    <Resource Include="images\ks.jpg" />
+    <Resource Include="images\qc.jpg" />
+    <Resource Include="images\qd.jpg" />
+    <Resource Include="images\qh.jpg" />
+    <Resource Include="images\qs.jpg" />
+  </ItemGroup>
+
+</Project>

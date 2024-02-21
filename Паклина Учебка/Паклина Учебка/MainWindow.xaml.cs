@@ -477,6 +477,9 @@ namespace Паклина_Учебка
                 row1c = 0;
                 row2c = 0;
                 row3c = 0;
+                row1_pts.Content = 0;
+                row2_pts.Content = 0;
+                row3_pts.Content = 0;
                 row1.Clear();
                 row2.Clear();
                 row3.Clear();
@@ -581,7 +584,7 @@ namespace Паклина_Учебка
                     row1_pts.Content = 0;
                     pts += 300;
                 }
-                else if (row1p > 21 & row1c < 5)
+                else if (row1p > 21 & row1c =< 5)
                 {
                     messageBoxText = "Слишком много очков!";
                     result = MessageBox.Show(messageBoxText, caption, button, icon, MessageBoxResult.Yes);
@@ -593,7 +596,8 @@ namespace Паклина_Учебка
                     row1.Clear();
                     row1c = 0;
                     row1_pts.Content = 0;
-                    pts += 50;
+                    if (pts >= 50)
+                        pts -= 50;
                     hp--;
                 }
                 else if (row1p < 21 & row1c == 5)
@@ -700,7 +704,7 @@ namespace Паклина_Учебка
                     row2_pts.Content = 0;
                     pts += 300;
                 }
-                else if (row2p > 21 & row2c < 5)
+                else if (row2p > 21 & row2c =< 5)
                 {
                     messageBoxText = "Слишком много карт!";
                     result = MessageBox.Show(messageBoxText, caption, button, icon, MessageBoxResult.Yes);
@@ -712,7 +716,8 @@ namespace Паклина_Учебка
                     row2.Clear();
                     row2c = 0;
                     row2_pts.Content = 0;
-                    pts += 50;
+                    if (pts >= 50)
+                        pts -= 50;
                     hp--;
                 }
                 else if (row2p < 21 & row2c == 5)
@@ -819,7 +824,7 @@ namespace Паклина_Учебка
                     row3_pts.Content = 0;
                     pts += 300;
                 }
-                else if (row3p > 21 & row3c < 5)
+                else if (row3p > 21 & row3c =< 5)
                 {
                     messageBoxText = "Слишком много карт!";
                     result = MessageBox.Show(messageBoxText, caption, button, icon, MessageBoxResult.Yes);
@@ -831,7 +836,8 @@ namespace Паклина_Учебка
                     row3.Clear();
                     row3c = 0;
                     row3_pts.Content = 0;
-                    pts += 50;
+                    if (pts >= 50)
+                        pts -= 50;
                     hp--;
                 }
                 else if (row3p < 21 & row3c == 5)
